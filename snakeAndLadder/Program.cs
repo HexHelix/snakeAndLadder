@@ -11,16 +11,19 @@ namespace snakeAndLadder
         static void Main(string[] args)
         {
             Int32 playerOnePos = 0;
+            Int32 RoundsPlayed = 0;
             Console.WriteLine("Welcome Player to Snake And Ladder");
             
             while(playerOnePos != 100)
             {
                 Console.WriteLine("Press enter key to roll dice");
+                //Console.ReadLine();
                 int dice = DiceRoll();
+                
                 Console.WriteLine(dice + " was obtained from dice roll");
                 int playoption = PlayOption();
-                
-                if(playoption == 1)
+
+                if (playoption == 1)
                 {
                     Console.WriteLine("No Play, player position is " + playerOnePos);
                 }
@@ -40,16 +43,24 @@ namespace snakeAndLadder
                     }
                     
                 }
-                else if(playerOnePos == 3)
+                else if(playoption == 3)
                 {
                     playerOnePos -= dice;
                     if(playerOnePos < 0)playerOnePos = 0;
                     Console.WriteLine("Oh nooo Snake! , player moved to position " + playerOnePos);
                 }
+                else
+                {
+                    Console.WriteLine("Error");
+                }
+
+                RoundsPlayed++;
+                
+
 
             }
 
-            Console.WriteLine("Congrats!!! you reached the finish line!");
+            Console.WriteLine("Congrats!!! you reached the finish line!. Number of moves played is " + RoundsPlayed );
 
 
         }
