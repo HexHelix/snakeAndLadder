@@ -1,0 +1,8 @@
+E:\LOCOBUZZ_Training\snakeAndLadder\snakeAndLadder\bin\Debug\snakeAndLadder.exe.config
+E:\LOCOBUZZ_Training\snakeAndLadder\snakeAndLadder\bin\Debug\snakeAndLadder.exe
+E:\LOCOBUZZ_Training\snakeAndLadder\snakeAndLadder\bin\Debug\snakeAndLadder.pdb
+E:\LOCOBUZZ_Training\snakeAndLadder\snakeAndLadder\obj\Debug\snakeAndLadder.csproj.AssemblyReference.cache
+E:\LOCOBUZZ_Training\snakeAndLadder\snakeAndLadder\obj\Debug\snakeAndLadder.csproj.SuggestedBindingRedirects.cache
+E:\LOCOBUZZ_Training\snakeAndLadder\snakeAndLadder\obj\Debug\snakeAndLadder.csproj.CoreCompileInputs.cache
+E:\LOCOBUZZ_Training\snakeAndLadder\snakeAndLadder\obj\Debug\snakeAndLadder.exe
+E:\LOCOBUZZ_Training\snakeAndLadder\snakeAndLadder\obj\Debug\snakeAndLadder.pdb
