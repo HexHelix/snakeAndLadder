@@ -10,8 +10,9 @@ namespace snakeAndLadder
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
-            Console.ReadLine();
+            Int32 playerOnePos = 0;
+            Console.WriteLine("Welcome Player to Snake And Ladder");
+
         }
     }
 }
