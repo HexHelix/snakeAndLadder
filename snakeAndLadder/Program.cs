@@ -12,6 +12,15 @@ namespace snakeAndLadder
         {
             Int32 playerOnePos = 0;
             Console.WriteLine("Welcome Player to Snake And Ladder");
+            Console.WriteLine(DiceRoll());
+
+        }
+
+        public static int DiceRoll()
+        {
+            Random Dice = new Random();
+            int dicenumber = Dice.Next(1, 7);
+            return dicenumber;
 
         }
     }
